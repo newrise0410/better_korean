@@ -485,6 +485,8 @@ def compare(docs: list[Doc], lex: Lexicon, labels: tuple[str, str], args) -> dic
 
 
 def extract_answer(text: str, how: str) -> str | None:
+    if how == "full":   # 답 전체 (공백만 정리)
+        return re.sub(r"\s+", " ", text.strip()) or None
     if how in ("first_int", "last_int"):
         found = re.findall(r"\d+", text)
         return (found[0] if how == "first_int" else found[-1]) if found else None

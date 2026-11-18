@@ -1,0 +1,453 @@
+{
+  "labels": {
+    "A": "설정 A",
+    "B": "설정 B"
+  },
+  "docs": {
+    "A": 120,
+    "B": 120
+  },
+  "native_rate": {
+    "num_a": 146,
+    "den_a": 22820,
+    "num_b": 121,
+    "den_b": 22847,
+    "rate_a": 0.006397896581945662,
+    "rate_b": 0.005296100144439095,
+    "ratio": 1.2071879406916899,
+    "ci": [
+      0.9100216653870921,
+      1.496498722816148
+    ],
+    "p": 0.03099380123975205
+  },
+  "native_by_entry": [
+    {
+      "entry": "걸음/NNG",
+      "a": 46,
+      "b": 34
+    },
+    {
+      "entry": "자리/NNG",
+      "a": 25,
+      "b": 20
+    },
+    {
+      "entry": "쪽/NNB",
+      "a": 24,
+      "b": 20
+    },
+    {
+      "entry": "셈/NNB",
+      "a": 23,
+      "b": 18
+    },
+    {
+      "entry": "고르/VV",
+      "a": 13,
+      "b": 10
+    },
+    {
+      "entry": "덩어리/NNG",
+      "a": 3,
+      "b": 5
+    },
+    {
+      "entry": "가늠/NNG",
+      "a": 1,
+      "b": 4
+    },
+    {
+      "entry": "칸/NN*",
+      "a": 3,
+      "b": 2
+    },
+    {
+      "entry": "까닭/NNG",
+      "a": 2,
+      "b": 2
+    },
+    {
+      "entry": "뜻/NNG",
+      "a": 2,
+      "b": 2
+    },
+    {
+      "entry": "길/NNG",
+      "a": 1,
+      "b": 1
+    },
+    {
+      "entry": "바탕/NNG",
+      "a": 1,
+      "b": 1
+    },
+    {
+      "entry": "서/VV",
+      "a": 0,
+      "b": 2
+    },
+    {
+      "entry": "가르/VV",
+      "a": 1,
+      "b": 0
+    },
+    {
+      "entry": "짝/NNG",
+      "a": 1,
+      "b": 0
+    }
+  ],
+  "pairs": [
+    {
+      "pair": "이유",
+      "a_native": 2,
+      "a_standard": 57,
+      "b_native": 2,
+      "b_standard": 47
+    },
+    {
+      "pair": "속도",
+      "a_native": 0,
+      "a_standard": 28,
+      "b_native": 0,
+      "b_standard": 32
+    },
+    {
+      "pair": "계산",
+      "a_native": 0,
+      "a_standard": 66,
+      "b_native": 0,
+      "b_standard": 70
+    },
+    {
+      "pair": "단어",
+      "a_native": 0,
+      "a_standard": 123,
+      "b_native": 0,
+      "b_standard": 131
+    },
+    {
+      "pair": "의미",
+      "a_native": 2,
+      "a_standard": 27,
+      "b_native": 2,
+      "b_standard": 17
+    },
+    {
+      "pair": "방법",
+      "a_native": 1,
+      "a_standard": 45,
+      "b_native": 1,
+      "b_standard": 46
+    },
+    {
+      "pair": "단계",
+      "a_native": 46,
+      "a_standard": 35,
+      "b_native": 34,
+      "b_standard": 34
+    },
+    {
+      "pair": "비교",
+      "a_native": 0,
+      "a_standard": 77,
+      "b_native": 0,
+      "b_standard": 91
+    },
+    {
+      "pair": "분류",
+      "a_native": 1,
+      "a_standard": 47,
+      "b_native": 0,
+      "b_standard": 38
+    },
+    {
+      "pair": "집계",
+      "a_native": 0,
+      "a_standard": 9,
+      "b_native": 0,
+      "b_standard": 13
+    },
+    {
+      "pair": "역할",
+      "a_native": 0,
+      "a_standard": 57,
+      "b_native": 0,
+      "b_standard": 49
+    },
+    {
+      "pair": "격차",
+      "a_native": 0,
+      "a_standard": 14,
+      "b_native": 0,
+      "b_standard": 13
+    },
+    {
+      "pair": "위치",
+      "a_native": 25,
+      "a_standard": 19,
+      "b_native": 20,
+      "b_standard": 18
+    },
+    {
+      "pair": "종류",
+      "a_native": 0,
+      "a_standard": 6,
+      "b_native": 0,
+      "b_standard": 4
+    },
+    {
+      "pair": "구조",
+      "a_native": 0,
+      "a_standard": 63,
+      "b_native": 0,
+      "b_standard": 65
+    },
+    {
+      "pair": "기반",
+      "a_native": 1,
+      "a_standard": 44,
+      "b_native": 1,
+      "b_standard": 37
+    },
+    {
+      "pair": "기준",
+      "a_native": 0,
+      "a_standard": 48,
+      "b_native": 0,
+      "b_standard": 46
+    },
+    {
+      "pair": "추정",
+      "a_native": 1,
+      "a_standard": 1,
+      "b_native": 4,
+      "b_standard": 2
+    },
+    {
+      "pair": "선택",
+      "a_native": 13,
+      "a_standard": 21,
+      "b_native": 10,
+      "b_standard": 23
+    },
+    {
+      "pair": "집단",
+      "a_native": 0,
+      "a_standard": 33,
+      "b_native": 0,
+      "b_standard": 41
+    },
+    {
+      "pair": "쌍",
+      "a_native": 1,
+      "a_standard": 1,
+      "b_native": 0,
+      "b_standard": 2
+    },
+    {
+      "pair": "방향",
+      "a_native": 24,
+      "a_standard": 39,
+      "b_native": 20,
+      "b_standard": 47
+    }
+  ],
+  "pair_share": {
+    "num_a": 117,
+    "den_a": 977,
+    "num_b": 94,
+    "den_b": 960,
+    "rate_a": 0.11975435005117707,
+    "rate_b": 0.09791666666666667,
+    "ratio": 1.2217510682198502,
+    "ci": [
+      0.9546361964012517,
+      1.5275754159634753
+    ],
+    "p": 0.01879624075184963
+  },
+  "rare_sino_rate": {
+    "num_a": 13,
+    "den_a": 22820,
+    "num_b": 25,
+    "den_b": 22847,
+    "rate_a": 0.0005696757230499561,
+    "rate_b": 0.0010942355670328708,
+    "ratio": 0.5300381502294169,
+    "ci": [
+      0.16538014812931684,
+      1.222387279919288
+    ],
+    "p": 0.10917816436712657
+  },
+  "demonstrative_rate": {
+    "num_a": 469,
+    "den_a": 22820,
+    "num_b": 502,
+    "den_b": 22847,
+    "rate_a": 0.020552147239263803,
+    "rate_b": 0.021972250186020045,
+    "ratio": 0.9354338299737072,
+    "ci": [
+      0.8448533967638787,
+      1.0360858367922177
+    ],
+    "p": 0.11077784443111378
+  },
+  "vocabulary": {
+    "jsd": 0.015813331383358595,
+    "p": 0.04897551224387806,
+    "vocab": 1229,
+    "more_a": [
+      {
+        "word": "안/NNG",
+        "a": 42,
+        "b": 22,
+        "z": 2.428880680524917,
+        "native": false
+      },
+      {
+        "word": "배/NNG",
+        "a": 21,
+        "b": 8,
+        "z": 2.298451790549929,
+        "native": false
+      },
+      {
+        "word": "다르/VA",
+        "a": 43,
+        "b": 25,
+        "z": 2.1304089919342015,
+        "native": false
+      },
+      {
+        "word": "근본/NNG",
+        "a": 22,
+        "b": 10,
+        "z": 2.043693861988151,
+        "native": false
+      },
+      {
+        "word": "점수/NNG",
+        "a": 11,
+        "b": 3,
+        "z": 1.9774375529372161,
+        "native": false
+      },
+      {
+        "word": "형성/NNG",
+        "a": 14,
+        "b": 5,
+        "z": 1.9556325320861303,
+        "native": false
+      },
+      {
+        "word": "많/VA",
+        "a": 39,
+        "b": 24,
+        "z": 1.8479013140538056,
+        "native": false
+      },
+      {
+        "word": "매주/MAG",
+        "a": 7,
+        "b": 1,
+        "z": 1.8187358342290307,
+        "native": false
+      },
+      {
+        "word": "의학/NNG",
+        "a": 7,
+        "b": 1,
+        "z": 1.8187358342290307,
+        "native": false
+      },
+      {
+        "word": "정의/NNG",
+        "a": 10,
+        "b": 3,
+        "z": 1.8115461068968155,
+        "native": false
+      }
+    ],
+    "more_b": [
+      {
+        "word": "담당자/NNG",
+        "a": 5,
+        "b": 16,
+        "z": -2.2544777899716224,
+        "native": false
+      },
+      {
+        "word": "투자/NNG",
+        "a": 4,
+        "b": 14,
+        "z": -2.19518170668642,
+        "native": false
+      },
+      {
+        "word": "높이/NNG",
+        "a": 3,
+        "b": 12,
+        "z": -2.1352692012892596,
+        "native": false
+      },
+      {
+        "word": "공간/NNG",
+        "a": 1,
+        "b": 9,
+        "z": -2.0965911509738873,
+        "native": false
+      },
+      {
+        "word": "신뢰/NNG",
+        "a": 3,
+        "b": 11,
+        "z": -1.9819400423593159,
+        "native": false
+      },
+      {
+        "word": "낯설/VA",
+        "a": 1,
+        "b": 8,
+        "z": -1.966898877684396,
+        "native": false
+      },
+      {
+        "word": "기존/NNG",
+        "a": 10,
+        "b": 21,
+        "z": -1.9159584393587412,
+        "native": false
+      },
+      {
+        "word": "체내/NNG",
+        "a": 8,
+        "b": 18,
+        "z": -1.8933303537134263,
+        "native": false
+      },
+      {
+        "word": "뒤/NNG",
+        "a": 57,
+        "b": 79,
+        "z": -1.8713495235778554,
+        "native": false
+      },
+      {
+        "word": "세포/NNG",
+        "a": 48,
+        "b": 68,
+        "z": -1.8395926442960426,
+        "native": false
+      }
+    ]
+  },
+  "type_token_ratio": {
+    "mean_a": 0.6870796460176991,
+    "mean_b": 0.6896111111111111,
+    "p": 0.6058788242351529
+  }
+}

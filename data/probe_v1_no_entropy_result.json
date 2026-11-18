@@ -1,0 +1,27 @@
+{
+  "number_after_copy": {
+    "n_a": 100,
+    "n_b": 100,
+    "tv": 0.0,
+    "p": 1.0,
+    "entropy_a": -0.0,
+    "entropy_b": -0.0
+  },
+  "number_direct": {
+    "n_a": 100,
+    "n_b": 100,
+    "tv": 0.0,
+    "p": 1.0,
+    "entropy_a": -0.0,
+    "entropy_b": -0.0
+  },
+  "fruit_after_copy": {
+    "n_a": 100,
+    "n_b": 100,
+    "tv": 0.010000000000000005,
+    "p": 1.0,
+    "entropy_a": -0.0,
+    "entropy_b": 0.08079313589591118
+  },
+  "adjusted_p": 1.0
+}

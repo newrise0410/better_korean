@@ -15,8 +15,11 @@
     {"id": "vaccine", "prompt": "백신을 맞으면 실제 병에 걸리지 않고도 면역이 생깁니다. 어떻게 그런 일이 가능한지 설명하는 글을 써 주세요."}
   ],
   "probe": [
-    {"id": "number_direct", "extract": "first_int", "prompt": "1부터 100 사이의 정수 하나를 마음대로 골라 숫자만 답해 주세요."},
-    {"id": "number_after_copy", "extract": "last_int", "prompt": "다음 문장을 그대로 한 번 적고, 바로 뒤에 1부터 100 사이의 정수 하나를 마음대로 골라 적어 주세요. 다른 말은 쓰지 마세요.\n문장: 내가 고른 수는 다음과 같다:"},
-    {"id": "fruit_after_copy", "extract": "last_word", "prompt": "다음 문장을 그대로 한 번 적고, 바로 뒤에 과일 이름 하나를 마음대로 골라 적어 주세요. 다른 말은 쓰지 마세요.\n문장: 내가 고른 과일은 다음과 같다:"}
+    {"id": "animal", "extract": "full", "prompt": "동물 이름 하나를 마음대로 골라 답해 주세요. 이름만 답해 주세요."},
+    {"id": "digits", "extract": "full", "prompt": "무작위로 보이는 여섯 자리 숫자 하나를 답해 주세요. 숫자만 답해 주세요."},
+    {"id": "name", "extract": "full", "prompt": "소설 주인공에게 붙일 한국어 이름 하나를 지어 주세요. 이름만 답해 주세요."},
+    {"id": "sentence", "extract": "full", "prompt": "아무 주제로나 한국어 문장 하나를 지어 주세요. 문장만 답해 주세요."},
+    {"id": "word5", "extract": "full", "prompt": "서로 관련 없는 한국어 명사 다섯 개를 쉼표로 구분해 답해 주세요. 명사만 답해 주세요."},
+    {"id": "title", "extract": "full", "prompt": "가을에 관한 시의 제목 하나를 지어 주세요. 제목만 답해 주세요."}
   ]
 }
