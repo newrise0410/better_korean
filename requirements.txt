@@ -1,0 +1,4 @@
+# anthropic 2.x는 temperature를 거부하는 API 버전(2026-10-21)을 보내므로 1.x로 고정한다.
+anthropic>=1,<2
+kiwipiepy>=0.20
+numpy>=1.24

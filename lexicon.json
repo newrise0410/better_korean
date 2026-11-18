@@ -1,0 +1,47 @@
+{
+  "_format": [
+    "항목은 '형태/품사' 형식의 형태소다. 품사는 Kiwi 태그이고 '*'를 쓸 수 있다 (예: 쪽/NN*).",
+    "'+'는 바로 이어지는 형태소 묶음이다 (예: 빠르/VA+기/ETN = '빠르기').",
+    "'!'는 바로 뒤에 그 형태소가 오면 세지 않는다는 뜻이다 (예: 무리/NNG!하/XS* = '무리하다'는 제외).",
+    "어떤 글이 어떻게 분석되는지는 'python analyze.py tokens 파일'로 확인할 수 있다."
+  ],
+  "pairs": [
+    {"id": "이유", "native": ["까닭/NNG"], "standard": ["이유/NNG"]},
+    {"id": "속도", "native": ["빠르/VA+기/ETN"], "standard": ["속도/NNG"]},
+    {"id": "계산", "native": ["셈/NNG"], "standard": ["계산/NNG"]},
+    {"id": "단어", "native": ["낱말/NNG"], "standard": ["단어/NNG"]},
+    {"id": "의미", "native": ["뜻/NNG"], "standard": ["의미/NNG"]},
+    {"id": "방법", "native": ["길/NNG"], "standard": ["방법/NNG"]},
+    {"id": "단계", "native": ["걸음/NNG"], "standard": ["단계/NNG"]},
+    {"id": "비교", "native": ["견주/VV"], "standard": ["비교/NNG"]},
+    {"id": "분류", "native": ["가르/VV"], "standard": ["분류/NNG", "구분/NNG", "분할/NNG"]},
+    {"id": "집계", "native": ["세/VV", "헤아리/VV"], "standard": ["집계/NNG", "합산/NNG"]},
+    {"id": "역할", "native": ["몫/NNG"], "standard": ["역할/NNG", "비중/NNG"]},
+    {"id": "격차", "native": ["틈/NNG"], "standard": ["격차/NNG", "간격/NNG"]},
+    {"id": "위치", "native": ["자리/NNG"], "standard": ["위치/NNG"]},
+    {"id": "종류", "native": ["갈래/NNG"], "standard": ["종류/NNG", "유형/NNG"]},
+    {"id": "구조", "native": ["짜임/NNG", "짜임새/NNG", "얼개/NNG"], "standard": ["구조/NNG"]},
+    {"id": "기반", "native": ["바탕/NNG"], "standard": ["기반/NNG", "기초/NNG"]},
+    {"id": "기준", "native": ["잣대/NNG"], "standard": ["기준/NNG"]},
+    {"id": "추정", "native": ["어림/NNG", "어림잡/VV", "가늠/NNG"], "standard": ["추정/NNG", "추산/NNG"]},
+    {"id": "선택", "native": ["고르/VV"], "standard": ["선택/NNG"]},
+    {"id": "집단", "native": ["무리/NNG!하/XS*", "묶음/NNG"], "standard": ["집단/NNG", "그룹/NNG"]},
+    {"id": "쌍", "native": ["짝/NNG"], "standard": ["쌍/NN*"]},
+    {"id": "방향", "native": ["쪽/NNB"], "standard": ["측/NNB", "측면/NNG", "방향/NNG"]}
+  ],
+  "groups": {
+    "native_extra": [
+      "서/VV", "사다리/NNG", "칸/NN*", "셈/NNB",
+      "실마리/NNG", "쓰임/NNG", "쓰임새/NNG", "쓸모/NNG", "가짓수/NNG", "덩어리/NNG", "결/NNG",
+      "박/VV", "새/VV", "눌리/VV", "짚/VV"
+    ],
+    "rare_sino": [
+      "연유/NNG", "사유/NNG", "방도/NNG", "방책/NNG", "속력/NNG", "산정/NNG",
+      "어휘/NNG", "간극/NNG", "소임/NNG", "연원/NNG", "요체/NNG", "판별/NNG"
+    ],
+    "demonstratives": [
+      "이/MM", "그/MM", "저/MM",
+      "이/NP", "그/NP", "이것/NP", "그것/NP", "저것/NP", "여기/NP", "거기/NP"
+    ]
+  }
+}
