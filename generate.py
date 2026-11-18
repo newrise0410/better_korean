@@ -126,7 +126,14 @@ def main() -> None:
     tasks = plan(json.loads(args.prompts.read_text(encoding="utf-8")), args.mode, args.n, arms, args.limit_prompts)
     done = set()
     if args.out.exists():
-        done = {key(json.loads(line)) for line in args.out.read_text(encoding="utf-8").splitlines() if line.strip()}
+        existing = [json.loads(line) for line in args.out.read_text(encoding="utf-8").splitlines() if line.strip()]
+        # 조건이 다른 응답이 한 파일에 섞이면 비교가 무의미해진다.
+        for row in existing:
+            if row["model"] != args.model:
+                sys.exit(f"{args.out}에는 다른 모델({row['model']})의 응답이 있습니다. --out으로 다른 파일을 지정하세요.")
+            if row["arm"] in arms and row["params"] != arms[row["arm"]]:
+                sys.exit(f"{args.out}의 설정 {row['arm']}은 {row['params']}로 생성됐습니다. --out으로 다른 파일을 지정하세요.")
+        done = {key(row) for row in existing}
     todo = [t for t in tasks if key(t) not in done]
     random.Random(0).shuffle(todo)   # 두 설정의 호출이 시간상 섞이게 한다
 

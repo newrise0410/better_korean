@@ -185,6 +185,8 @@ def test_generate_sends_the_intended_requests():
         rows = [json.loads(line) for line in out.read_text(encoding="utf-8").splitlines()]
         again = subprocess.run(command, env=env, capture_output=True, text=True)
         assert again.returncode == 0, again.stderr
+        mixed = subprocess.run(command + ["--model", "claude-sonnet-4-6"], env=env, capture_output=True, text=True)
+        assert mixed.returncode != 0 and "다른 모델" in mixed.stderr, mixed.stderr   # 모델이 섞이지 않게 막는다
     server.shutdown()
 
     assert len(FakeApi.seen) == 8, len(FakeApi.seen)          # 다시 실행했을 때 새 호출이 없어야 한다
