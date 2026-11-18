@@ -7,7 +7,7 @@
   ],
   "pairs": [
     {"id": "이유", "native": ["까닭/NNG"], "standard": ["이유/NNG"]},
-    {"id": "속도", "native": ["빠르/VA+기/ETN"], "standard": ["속도/NNG"]},
+    {"id": "속도", "native": ["빠르/VA+기/ETN!때문/NNB"], "standard": ["속도/NNG"]},
     {"id": "계산", "native": ["셈/NNG"], "standard": ["계산/NNG"]},
     {"id": "단어", "native": ["낱말/NNG"], "standard": ["단어/NNG"]},
     {"id": "의미", "native": ["뜻/NNG"], "standard": ["의미/NNG"]},

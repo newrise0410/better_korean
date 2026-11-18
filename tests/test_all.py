@@ -50,7 +50,8 @@ def test_homonyms_are_separated():
 
 def test_sequence_and_exclusion_entries():
     c = counts("두 알고리즘의 빠르기를 견준다. 속도가 빠르다.")
-    assert c.get("빠르/VA+기/ETN") == 1 and c.get("속도/NNG") == 1 and c.get("견주/VV") == 1, c
+    assert c.get("빠르/VA+기/ETN!때문/NNB") == 1 and c.get("속도/NNG") == 1 and c.get("견주/VV") == 1, c
+    assert "빠르/VA+기/ETN!때문/NNB" not in counts("디스크에서 읽는 일이 훨씬 빠르기 때문에 금방 뜬다.")
     c = counts("무리 지어 다닌다. 무리한 요구다.")
     assert c.get("무리/NNG!하/XS*") == 1, c
 
